@@ -13,6 +13,8 @@
 		BA93ECAC1F435F3400599B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */; };
 		BA93ECAD1F435F3400599B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAB1F435F3400599B23 /* Main.storyboard */; };
 		BA93ECAF1F43617800599B23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */; };
+		BAE767101F437D13002AAC6F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7670F1F437D13002AAC6F /* EventsViewController.swift */; };
+		BAE767121F437D22002AAC6F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE767111F437D22002AAC6F /* TodayViewController.swift */; };
 		DED1E236DC34BC512C64AF48 /* Pods_Civic_Event_Exchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF9BE58440E50D79C190099 /* Pods_Civic_Event_Exchange.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA93ECAB1F435F3400599B23 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAE7670F1F437D13002AAC6F /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = Controllers/EventsViewController.swift; sourceTree = "<group>"; };
+		BAE767111F437D22002AAC6F /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = Controllers/TodayViewController.swift; sourceTree = "<group>"; };
 		FEF9BE58440E50D79C190099 /* Pods_Civic_Event_Exchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Civic_Event_Exchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,8 @@
 		BAE7670C1F4379DE002AAC6F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BAE7670F1F437D13002AAC6F /* EventsViewController.swift */,
+				BAE767111F437D22002AAC6F /* TodayViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA93EC8F1F435DEC00599B23 /* AppDelegate.swift in Sources */,
+				BAE767101F437D13002AAC6F /* EventsViewController.swift in Sources */,
+				BAE767121F437D22002AAC6F /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@
         <!--Today-->
         <scene sceneID="hWk-sY-Mmj">
             <objects>
-                <viewController id="e77-nZ-j8c" customClass="TodayViewController" sceneMemberID="viewController">
+                <viewController id="e77-nZ-j8c" customClass="TodayViewController" customModule="Civic_Event_Exchange" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oJd-sE-med"/>
                         <viewControllerLayoutGuide type="bottom" id="8bW-gt-Moa"/>
@@ -31,7 +31,7 @@
         <!--Events-->
         <scene sceneID="uyT-A6-73h">
             <objects>
-                <viewController id="FGz-31-Tgp" customClass="EventsViewController" sceneMemberID="viewController">
+                <viewController id="FGz-31-Tgp" customClass="EventsViewController" customModule="Civic_Event_Exchange" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cgX-54-eqc"/>
                         <viewControllerLayoutGuide type="bottom" id="eqM-em-B8n"/>
