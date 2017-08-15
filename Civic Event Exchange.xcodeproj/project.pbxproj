@@ -14,9 +14,13 @@
 		BA93ECA91F435F1000599B23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECA81F435F1000599B23 /* Info.plist */; };
 		BA93ECAC1F435F3400599B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */; };
 		BA93ECAD1F435F3400599B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAB1F435F3400599B23 /* Main.storyboard */; };
+		BA93ECAF1F43617800599B23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */; };
+		DED1E236DC34BC512C64AF48 /* Pods_Civic_Event_Exchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF9BE58440E50D79C190099 /* Pods_Civic_Event_Exchange.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B25726BDCFCD55C5741EAB0 /* Pods-Civic Event Exchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Civic Event Exchange.release.xcconfig"; path = "Pods/Target Support Files/Pods-Civic Event Exchange/Pods-Civic Event Exchange.release.xcconfig"; sourceTree = "<group>"; };
+		41FA3CC1AD2799CC162EE179 /* Pods-Civic Event Exchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Civic Event Exchange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Civic Event Exchange/Pods-Civic Event Exchange.debug.xcconfig"; sourceTree = "<group>"; };
 		BA93EC8B1F435DEC00599B23 /* Civic Event Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Civic Event Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA93EC971F435DEC00599B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +29,8 @@
 		BA93ECA81F435F1000599B23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA93ECAB1F435F3400599B23 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEF9BE58440E50D79C190099 /* Pods_Civic_Event_Exchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Civic_Event_Exchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +38,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED1E236DC34BC512C64AF48 /* Pods_Civic_Event_Exchange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D641819D1901AA512AF2D18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41FA3CC1AD2799CC162EE179 /* Pods-Civic Event Exchange.debug.xcconfig */,
+				1B25726BDCFCD55C5741EAB0 /* Pods-Civic Event Exchange.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA93EC821F435DEC00599B23 = {
 			isa = PBXGroup;
 			children = (
 				BA93EC8D1F435DEC00599B23 /* Civic Event Exchange */,
 				BA93EC8C1F435DEC00599B23 /* Products */,
+				3D641819D1901AA512AF2D18 /* Pods */,
+				E4185EBFADCAD3649F4AB947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,11 +79,20 @@
 				BA93ECA21F435EED00599B23 /* FirstViewController.swift */,
 				BA93ECA31F435EED00599B23 /* SecondViewController.swift */,
 				BA93ECA81F435F1000599B23 /* Info.plist */,
-				BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */,
+				BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */,
 				BA93ECAB1F435F3400599B23 /* Main.storyboard */,
+				BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */,
 				BA93EC971F435DEC00599B23 /* Assets.xcassets */,
 			);
 			path = "Civic Event Exchange";
+			sourceTree = "<group>";
+		};
+		E4185EBFADCAD3649F4AB947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEF9BE58440E50D79C190099 /* Pods_Civic_Event_Exchange.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA93EC9F1F435DEC00599B23 /* Build configuration list for PBXNativeTarget "Civic Event Exchange" */;
 			buildPhases = (
+				DFA32074B8A971D81C06CFEB /* [CP] Check Pods Manifest.lock */,
 				BA93EC871F435DEC00599B23 /* Sources */,
 				BA93EC881F435DEC00599B23 /* Frameworks */,
 				BA93EC891F435DEC00599B23 /* Resources */,
+				956A9AFA3AB9E76F9361D665 /* [CP] Embed Pods Frameworks */,
+				0E5A77144486D0F85E7466BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +160,61 @@
 			files = (
 				BA93ECAC1F435F3400599B23 /* LaunchScreen.storyboard in Resources */,
 				BA93ECA91F435F1000599B23 /* Info.plist in Resources */,
+				BA93ECAF1F43617800599B23 /* GoogleService-Info.plist in Resources */,
 				BA93EC981F435DEC00599B23 /* Assets.xcassets in Resources */,
 				BA93ECAD1F435F3400599B23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5A77144486D0F85E7466BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Civic Event Exchange/Pods-Civic Event Exchange-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956A9AFA3AB9E76F9361D665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Civic Event Exchange/Pods-Civic Event Exchange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA32074B8A971D81C06CFEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA93EC871F435DEC00599B23 /* Sources */ = {
@@ -246,6 +325,7 @@
 		};
 		BA93ECA01F435DEC00599B23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FA3CC1AD2799CC162EE179 /* Pods-Civic Event Exchange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 856MTFRCV6;
@@ -260,6 +340,7 @@
 		};
 		BA93ECA11F435DEC00599B23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B25726BDCFCD55C5741EAB0 /* Pods-Civic Event Exchange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 856MTFRCV6;
