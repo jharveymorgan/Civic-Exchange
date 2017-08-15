@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA93EC8F1F435DEC00599B23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */; };
 		BA93EC981F435DEC00599B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93EC971F435DEC00599B23 /* Assets.xcassets */; };
-		BA93ECA41F435EED00599B23 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93ECA21F435EED00599B23 /* EventsViewController.swift */; };
-		BA93ECA51F435EED00599B23 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93ECA31F435EED00599B23 /* TodayViewController.swift */; };
 		BA93ECA91F435F1000599B23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECA81F435F1000599B23 /* Info.plist */; };
 		BA93ECAC1F435F3400599B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */; };
 		BA93ECAD1F435F3400599B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAB1F435F3400599B23 /* Main.storyboard */; };
@@ -24,8 +22,6 @@
 		BA93EC8B1F435DEC00599B23 /* Civic Event Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Civic Event Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA93EC971F435DEC00599B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA93ECA21F435EED00599B23 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = Controllers/EventsViewController.swift; sourceTree = "<group>"; };
-		BA93ECA31F435EED00599B23 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = Controllers/TodayViewController.swift; sourceTree = "<group>"; };
 		BA93ECA81F435F1000599B23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA93ECAB1F435F3400599B23 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
@@ -107,8 +103,6 @@
 		BAE7670C1F4379DE002AAC6F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BA93ECA21F435EED00599B23 /* EventsViewController.swift */,
-				BA93ECA31F435EED00599B23 /* TodayViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -261,9 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA93ECA51F435EED00599B23 /* TodayViewController.swift in Sources */,
 				BA93EC8F1F435DEC00599B23 /* AppDelegate.swift in Sources */,
-				BA93ECA41F435EED00599B23 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
