@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA93EC8F1F435DEC00599B23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */; };
 		BA93EC981F435DEC00599B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93EC971F435DEC00599B23 /* Assets.xcassets */; };
-		BA93ECA41F435EED00599B23 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93ECA21F435EED00599B23 /* FirstViewController.swift */; };
-		BA93ECA51F435EED00599B23 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93ECA31F435EED00599B23 /* SecondViewController.swift */; };
+		BA93ECA41F435EED00599B23 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93ECA21F435EED00599B23 /* EventsViewController.swift */; };
+		BA93ECA51F435EED00599B23 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93ECA31F435EED00599B23 /* TodayViewController.swift */; };
 		BA93ECA91F435F1000599B23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECA81F435F1000599B23 /* Info.plist */; };
 		BA93ECAC1F435F3400599B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */; };
 		BA93ECAD1F435F3400599B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93ECAB1F435F3400599B23 /* Main.storyboard */; };
@@ -24,8 +24,8 @@
 		BA93EC8B1F435DEC00599B23 /* Civic Event Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Civic Event Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA93EC971F435DEC00599B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA93ECA21F435EED00599B23 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = Controllers/FirstViewController.swift; sourceTree = "<group>"; };
-		BA93ECA31F435EED00599B23 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = Controllers/SecondViewController.swift; sourceTree = "<group>"; };
+		BA93ECA21F435EED00599B23 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = Controllers/EventsViewController.swift; sourceTree = "<group>"; };
+		BA93ECA31F435EED00599B23 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = Controllers/TodayViewController.swift; sourceTree = "<group>"; };
 		BA93ECA81F435F1000599B23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA93ECAB1F435F3400599B23 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
@@ -76,15 +76,55 @@
 			isa = PBXGroup;
 			children = (
 				BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */,
-				BA93ECA21F435EED00599B23 /* FirstViewController.swift */,
-				BA93ECA31F435EED00599B23 /* SecondViewController.swift */,
-				BA93ECA81F435F1000599B23 /* Info.plist */,
-				BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */,
-				BA93ECAB1F435F3400599B23 /* Main.storyboard */,
-				BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */,
+				BAE7670C1F4379DE002AAC6F /* ViewControllers */,
+				BAE7670E1F4379F0002AAC6F /* Models */,
+				BAE7670D1F4379E6002AAC6F /* Views */,
+				BAE7670B1F4379D3002AAC6F /* Storyboards */,
+				BAE7670A1F4379B7002AAC6F /* Supporting */,
 				BA93EC971F435DEC00599B23 /* Assets.xcassets */,
 			);
 			path = "Civic Event Exchange";
+			sourceTree = "<group>";
+		};
+		BAE7670A1F4379B7002AAC6F /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BA93ECA81F435F1000599B23 /* Info.plist */,
+				BA93ECAE1F43617800599B23 /* GoogleService-Info.plist */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		BAE7670B1F4379D3002AAC6F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BA93ECAB1F435F3400599B23 /* Main.storyboard */,
+				BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BAE7670C1F4379DE002AAC6F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA93ECA21F435EED00599B23 /* EventsViewController.swift */,
+				BA93ECA31F435EED00599B23 /* TodayViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BAE7670D1F4379E6002AAC6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BAE7670E1F4379F0002AAC6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		E4185EBFADCAD3649F4AB947 /* Frameworks */ = {
@@ -221,9 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA93ECA51F435EED00599B23 /* SecondViewController.swift in Sources */,
+				BA93ECA51F435EED00599B23 /* TodayViewController.swift in Sources */,
 				BA93EC8F1F435DEC00599B23 /* AppDelegate.swift in Sources */,
-				BA93ECA41F435EED00599B23 /* FirstViewController.swift in Sources */,
+				BA93ECA41F435EED00599B23 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +412,7 @@
 				BA93ECA11F435DEC00599B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
