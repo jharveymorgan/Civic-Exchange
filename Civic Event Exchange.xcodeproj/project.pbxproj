@@ -57,12 +57,12 @@
 		BA93EC8D1F435DEC00599B23 /* Civic Event Exchange */ = {
 			isa = PBXGroup;
 			children = (
-				BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */,
-				BA93ECAB1F435F3400599B23 /* Main.storyboard */,
-				BA93ECA81F435F1000599B23 /* Info.plist */,
+				BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */,
 				BA93ECA21F435EED00599B23 /* FirstViewController.swift */,
 				BA93ECA31F435EED00599B23 /* SecondViewController.swift */,
-				BA93EC8E1F435DEC00599B23 /* AppDelegate.swift */,
+				BA93ECA81F435F1000599B23 /* Info.plist */,
+				BA93ECAA1F435F3400599B23 /* LaunchScreen.storyboard */,
+				BA93ECAB1F435F3400599B23 /* Main.storyboard */,
 				BA93EC971F435DEC00599B23 /* Assets.xcassets */,
 			);
 			path = "Civic Event Exchange";
